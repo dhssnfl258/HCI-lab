@@ -1,1 +1,1 @@
-# HCI
+# HCI-lab
