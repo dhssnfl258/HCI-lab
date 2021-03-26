@@ -23,7 +23,7 @@
       });
     MESSAGES.push({
         delay: 1200,
-        text: "sdaf asdf  asdf asdf "
+        text: "Home Members Papers Research Contact"
       });
     MESSAGES.push({
         delay: 1200,
