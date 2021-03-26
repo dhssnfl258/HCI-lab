@@ -129,7 +129,6 @@ body {
 
   .sideNav {
     width:30%; height:80%; 
-    align-items: center;
     float:right;
     margin-top: 100px;
     color: snow; 
@@ -153,7 +152,6 @@ body {
     .sideNav{
         width:100%;
         height:100%;
-        align-items: center;
     }
 
     .research_list li {
