@@ -39,10 +39,10 @@ a:hover { color: none; text-decoration: none;}
   
 #message {
     margin-left: -500px;
-    margin-top: -180px;
+    margin-top: -300px;
     position: absolute;
-    height: 260px;
-    width: 600px;
+    height: 280px;
+    width: 650px;
     left: 50%;
     top: 50%;
   }
@@ -157,7 +157,7 @@ a:hover { color: none; text-decoration: none;}
           margin-left:100px;
       }
     .cmd {
-        width:200px; height:600px;
+        width:200px; height:700px;
         display:none;
     }
     .sideNav{
