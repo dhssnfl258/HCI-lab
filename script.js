@@ -36,7 +36,7 @@
   
     MESSAGES.push({
       delay: 3600,
-      text: "HCI Lab is awwwwwesom!"
+      text: "HCI Lab is awwwwwesome!"
     });
   
     MESSAGES.push({
