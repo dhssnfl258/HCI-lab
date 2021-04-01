@@ -7,11 +7,23 @@
       });
     MESSAGES.push({
       delay: 0,
-      text: "Last login: Tue Mar 23 09:54:45 on console"
+      text: "Last login: Thu Apr  1 14:01:37 on HCI_lab"
+    });
+    MESSAGES.push({
+      delay: 1200,
+      text: "&nbsp;"
     });
     MESSAGES.push({
       delay: 1200,
       text: "The default interactive shell is now zsh."
+    });
+    MESSAGES.push({
+      delay: 1200,
+      text: "To update your account to use zsh, please run `chsh -s /bin/zsh`."
+    });
+    MESSAGES.push({
+      delay: 1200,
+      text: "For more details, please visit https://wwww.inha.ac.kr"
     });
     MESSAGES.push({
         delay: 1200,
@@ -23,7 +35,7 @@
       });
     MESSAGES.push({
         delay: 1200,
-        text: "Home Members Papers Research Contact"
+        text: "Home Members Papers Research Contact Professor_info"
       });
     MESSAGES.push({
         delay: 1200,
@@ -31,9 +43,8 @@
       });
     MESSAGES.push({
       delay: 2200,
-      text: "We work on human computers."
+      text: "We work on human computers. let's study with us! "
     });
-  
     MESSAGES.push({
       delay: 3600,
       text: "HCI Lab is awwwwwesome!"
