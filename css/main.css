@@ -1,3 +1,6 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Cantata+One&display=swap');
 label, #toggle{display: none;}
 
 body {
@@ -10,21 +13,21 @@ body {
   bottom:0px; 
   height:30px; 
   width:100%; 
-  background:rgb(24, 23, 23); 
-  color: white;
+  background:rgb(194, 194, 194); 
+  color: rgb(5, 5, 5);
   opacity:0.7;
 }
 p, a{
-    text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+    text-shadow: 0 0 8px rgba(8, 8, 8, 0.3);
     font-family: Courier, monospace;
     margin: 0.8em 0;
     font-size: 18px;
-    color: rgb(233, 232, 231);
+    color: rgb(0, 0, 0);
   }
 .mainLogo{
       font-family:Verdana, Geneva, Tahoma, sans-serif;
       font-size: 15px;
-      color: snow;
+      color: rgb(8, 8, 8);
       margin: 0;
       text-shadow:none;
   }
@@ -48,14 +51,14 @@ a:hover { color: none; text-decoration: none;}
   }
   
 #animate {
-    text-shadow: 0 0 8px rgba(209, 194, 165, 0.1);
+    text-shadow: 0 0 8px rgba(3, 3, 3, 0.1);
     position: absolute;
-    color: #b3b1ad;
+    color: #111110;
     bottom: 0;
   }
   
 #container {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     position: absolute;
     height: 100%;
     width: 100%;
@@ -84,7 +87,7 @@ a:hover { color: none; text-decoration: none;}
       box-sizing: border-box;
   }
   body{
-      background-color: black;
+      background-color: rgb(255, 255, 255);
       margin:20px;
   }
   nav {
@@ -92,7 +95,7 @@ a:hover { color: none; text-decoration: none;}
       justify-content: space-around;
       align-items: center;
       min-height:8vh;
-      background: linear-gradient( to bottom, grey, black );
+      background:white;
       opacity:0.95;
       font-family: Courier, monospace;
   }
@@ -103,7 +106,7 @@ a:hover { color: none; text-decoration: none;}
       font-weight:bold;
   }
   .menu{
-    color:snow;
+    color:rgb(0, 0, 0);
     font-size:15px;
   }
   #menu{
@@ -114,29 +117,31 @@ a:hover { color: none; text-decoration: none;}
   #menu li {
     justify-content: space-around;
       list-style: none;
-      color: snow;
+      color: rgb(0, 0, 0);
   }
   #menu a {
-      color: snow;
+      color: rgb(0, 0, 0);
       text-decoration: none;
       letter-spacing: 3px;
       font-size: 14px;
   }
   #menu a:hover {
-      color:  rgba(223,190,106,0.8);
+      color:  rgba(240, 20, 20, 0.8);
       filter: 20px;
       text-decoration: none;
       letter-spacing: 3px;
       font-weight:  bold;
       font-size: 14px;
   }
-
+  .contents{
+    font-size:35px; margin-left: 170px;color:white;font-family: 'Cantata One', serif;
+  }
 
   .sideNav {
     width:30%; height:80%; 
     float:right;
     margin-top: 80px;
-    color: snow; 
+    color: rgb(0, 0, 0); 
     padding: 30px;
     margin-right:20px;
   }
@@ -195,17 +200,17 @@ a:hover { color: none; text-decoration: none;}
     font-style: normal;
     font-size: 0.725rem;
     letter-spacing: 0.3em;
-    color:snow;
+    color:rgb(0, 0, 0);
     border-radius: 0;
     padding: 18px 70px 20px;
     transition: all 0.7s ease-out;
-    background: linear-gradient(270deg, rgba(223,190,106,0.8), rgba(146,111,52,0.8), rgba(34,34,34,0), rgba(34,34,34,0));
+    background: linear-gradient(270deg, rgba(255, 0, 0, 0.8), rgba(248, 47, 47, 0.8), rgba(255, 121, 121, 0), rgba(34,34,34,0));
     background-position: 1% 50%;
     background-size: 300% 300%;
     text-decoration: none;
     margin: 0.5rem;
     border: none;
-    border: 1px solid silver;
+    border: 1px solid rgb(0, 0, 0);
     width: 400px;
     text-align:center;
   }
@@ -223,7 +228,7 @@ a:hover { color: none; text-decoration: none;}
     left:10%;
     top:20%;
     margin-left: 0px;
-    margin-top: 0px; width: 80%; height:100%; color:silver;
+    margin-top: 0px; width: 80%; height:100%; color:rgb(0, 0, 0);
 }
 
 /* members custom css */
@@ -301,48 +306,47 @@ a:hover { color: none; text-decoration: none;}
     margin-left:20px;
 }
 .hidden li{
-    color: snow;
+    color: rgb(2, 2, 2);
     font-size: 15px;
 }
 .Project {
     padding:1px; font-size: 16px;
     font-weight:bold;
-    color:rgb(206, 206, 206);
+    color:rgb(0, 0, 0);
 }
 .title{
-    border-bottom: 4px solid rgb(230, 225, 225);
+    border-bottom: 4px solid rgb(0, 0, 0);
     font-weight: bold;
     font-size: 25pt;
-    color: silver;
+    color: rgb(217, 80, 64);
     margin-bottom: -1px;
     display: inline-block;
     padding: 0 20px 5px 20px;
 }
 
 hr {
-    border-top:1px solid #bbb;
-    border-bottom:1px solid #fff;
+    border-top:1px solid rgb(0, 0, 0);
+    border-bottom:1px solid rgb(0, 0, 0);
 }
 
 .finder{
-    list-style: none; display:flex; justify-content: space-around; text-align: center;
+    list-style: none; display:flex;
+    float:right;
+    text-align: center;
+
 }
 .finder li{
-    color: snow;
+    color:white;
     font-size:15px;
-    text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
     font-family: Courier, monospace;
     margin: 0.8em 0;
     padding:7px;
-    border-radius:1px;
-    background-color:rgb(44, 44, 44);
-    width:200px;
 }
 .finder li a:hover{
-    color:rgba(223,190,106,0.8);
+    color:rgba(247, 43, 43, 0.8);
     font-weight: bold;
 }
-.hompage{
+/* .hompage{
     font-size: 0.925rem;
     letter-spacing: 0.3em;
     color:snow;
@@ -363,4 +367,4 @@ hr {
     border: 1px solid rgba(223,190,106,0);
     color: white;
     background-position: 99% 50%;
-}
+} */
