@@ -18,7 +18,6 @@ body {
   opacity:0.7;
 }
 p, a{
-    text-shadow: 0 0 8px rgba(8, 8, 8, 0.3);
     font-family: Courier, monospace;
     margin: 0.8em 0;
     font-size: 18px;
@@ -284,7 +283,6 @@ a:hover { color: none; text-decoration: none;}
     margin-top: 13px;
 }
 .research_list img{
-    filter: invert(100%);
     width:200px;
     height:200px;
     opacity:0.9;
@@ -345,6 +343,14 @@ hr {
 .finder li a:hover{
     color:rgba(247, 43, 43, 0.8);
     font-weight: bold;
+}
+.homepage{
+    color: red;
+    font-weight: bold
+}
+
+.pap {
+    margin-left: 25px;
 }
 /* .hompage{
     font-size: 0.925rem;
