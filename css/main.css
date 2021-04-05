@@ -160,7 +160,18 @@ a:hover { color: none; text-decoration: none;}
       }
   }
   @media (max-width:768px){
-      
+      #panel{
+          display:none;
+      }
+      #inha{
+          display:block;
+          margin-top:100px;
+          text-align: center;
+          justify-content: center;
+      }
+      #inin{
+          display:none;
+      }
       body{
           overflow-x:hidden;
           margin-left:100px;

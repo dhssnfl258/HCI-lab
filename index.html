@@ -24,52 +24,57 @@
 <!-- partial:index.partial.html -->
 <div id="container">
     <div style="margin-top:4px" id="particles-js">
-        <nav>
-          <a class="mainLogo"href="./index.html">
-            <div style="display:flex;" href="./index.html">
-            <img src ="./images/logo/inha_logo.png" style="width:40px;height:40px;margin-right:5px; "/>
-            <div>
-            <h2 style ="color:black;">HCI Lab</h2>
-            <h3 style ="color:black; font-size:10px;">Human–computer interaction lab</h3>
-          </div>
-          </div>
 
-        </a>
-          <ul id="menu">
-              <li><a href="./index.html" style="color:red; font-weight:bold;font-size:17px">Home</a></li>
-              <li><a href="./members.html" style="font-size:17px">Members</a></li>
-              <li><a href="./papers.html" style="font-size:17px">Papers</a></li>
-              <li><a href="./research.html" style="font-size:17px">Research</a></li>
-              <li><a href="./contact.html" style="font-size:17px">Contact</a></li>
-          </ul>
-        </nav>
-    </div><!--Menu-->
+            <nav>
+                <a class="mainLogo"href="./index.html">
+                    <div style="display:flex;" href="./index.html">
+                    <img src ="./images/logo/inha_logo.png" style="width:40px; height:40px;margin-right:5px; "/>
+                    <div>
+                    <h2 style ="color:black;">HCI Lab</h2>
+                    <h3 style ="color:black; font-size:10px; ">Human–computer interaction lab</h3>
+                  </div>
+                  </div>
+                </a>        
+                <label for="toggle" onclick class="menu">MENU</label>
+                <input type ="checkbox" id="toggle"/>
+                <ul id="menu">
+                    <li><a href="./index.html" style="color:red;font-weight:bold;font-size:17px">Home</a></li>
+                    <li><a href="./members.html" style="font-size:17px;">Members</a></li>
+                    <li><a href="./papers.html" style="font-size:17px">Papers</a></li>
+                    <li><a href="./research.html" style="font-size:17px">Research</a></li>
+                    <li><a href="./contact.html" style="font-size:17px">Contact</a></li>
+                </ul>
+            </nav>
+        </div><!--Menu-->
   <div class="wrapper">
       <div style="float:right; line-height: 13px;">
-        <h1 style="font-size:55px; color:red;">H<span style="color:rgb(68, 68, 68)">CI lab #Inha univ.</span></h1>   
-        <h2 style="color:rgb(59, 59, 59)">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Human–computer Interaction Lab</h2></div>
+        <h1 id="inha"style="font-size:55px; color:red;">H<span style="color:rgb(68, 68, 68)">CI lab <span id="inin">#Inha univ.</span></span></h1>   
+        <h2  id="panel" style="color:rgb(59, 59, 59)">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Human–computer Interaction Lab</h2></div>
         <div style="width:100%;height:68%"></div>
     <div>
      <ul style="list-style:none; display:flex; justify-content: space-around;align-items: center;">
          <li><a href="./members.html"><img src="./images/personal-information.png" style="width:120px; height:120px;">
-          <p style="font-size:5px;text-align: center;">Professor profile</p></a></li>
-         <li><a href="#"><img src="./images/ai.png"style="width:120px; height:120px;">
-          <p style="font-size:5px;text-align: center;">What we study</p></a></li>
+          <p style="font-size:12px;text-align:center; width:120px;">
+            Checking the information of members</p></a></li>
+         <li><a href="./research.html"><img src="./images/ai.png"style="width:120px; height:120px;">
+          <p style="font-size:12px;text-align: center;width:120px">You can take a look at our research field</p></a></li>
          <li><a href="./papers.html"><img src="./images/database.png"style="width:120px; height:120px;">
-          <p style="font-size:5px;text-align: center;">It's  our lagecy</p></a></li>
-         <li><a href="./research.html"><img src="./images/learning.png"style="width:120px; height:120px;">
-          <p style="font-size:5px;text-align: center;">what we research</p></a></li>
+          <p style="font-size:12px;text-align:center; width:120px">
+            You can view papers and patents. It's our lagecy</p></a></li>
+         <li><a href="./contact.html"><img src="./images/location.png"style="width:120px; height:120px;">
+          <p style="font-size:12px;text-align: center; width: 120px">    
+            If you want, you can come to HCI lab</p></a></li>
      </ul>
-     <div style="font-size:5px; margin-right:50px;float: right;margin-top:20px;color:silver">Icons made by
-      <a href="https://www.freepik.com" title="Freepik" style="font-size:9px;color:silver">Freepik</a> from 
-      <a href="https://www.flaticon.com/" title="Flaticon"style="font-size:9px;font-weight:bold;color:silver">www.flaticon.com</a></div>
+     <div style="font-size:5px; margin-right:50px;float: right;margin-top:20px; color:black">Icons made by
+      <a href="https://www.freepik.com" title="Freepik" style="font-size:9px;color:black">Freepik</a> from 
+      <a href="https://www.flaticon.com/" title="Flaticon"style="font-size:9px;font-weight:bold;color:black">www.flaticon.com</a></div>
     </div>
   </div> <!--wrapper-->
   <div class="bottom">
     <footer>
 
-      <a href="./index.html"  style="float:right; font-size: 9px; margin-right: 40px">HCI lab.</a>
-      <a href="http://www.inha.ac.kr" style="float:right; font-size: 9px; "> &nbsp; &nbsp; Inha Univ. &nbsp;&nbsp;&nbsp;&nbsp; </a>    </footer>
+      <a href="./index.html"  style="float:right; font-size: 9.5px; margin-right: 40px">HCI lab.</a>
+      <a href="http://www.inha.ac.kr" style="float:right; font-size: 9.5px; "> &nbsp; &nbsp; Inha Univ. &nbsp;&nbsp;&nbsp;&nbsp; </a>    </footer>
   </div>
 </div> <!--container-->
 <!-- partial -->
