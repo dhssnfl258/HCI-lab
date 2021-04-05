@@ -2,10 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Cantata+One&display=swap');
 label, #toggle{display: none;}
+@font-face {
 
+    src : url("../D2CodingBold-Ver1.3-20171129.ttf"); 
+    font-family: "D2"; 
+}
 body {
     padding: 0;
     margin: 0;
+    font-family: "D2"; 
   }
 .bottom{
   position:fixed; 
@@ -18,7 +23,7 @@ body {
   opacity:0.7;
 }
 p, a{
-    font-family: Courier, monospace;
+
     margin: 0.8em 0;
     font-size: 18px;
     color: rgb(0, 0, 0);
@@ -184,12 +189,14 @@ a:hover { color: none; text-decoration: none;}
     label {display:block; text-align:center;background-repeat: no-repeat;background-position: 97% 10px;
         font-size:20px; padding:4px 3%;
     }
-    .finder {
+    .paper-search{
         display:none;
     }
   }
 
-  
+  .paper-search{
+    float:right; margin-top:20px;width:70%
+  }
   /* main button */
   .btn {
     display: inline-block;
@@ -283,8 +290,8 @@ a:hover { color: none; text-decoration: none;}
     margin-top: 13px;
 }
 .research_list img{
-    width:200px;
-    height:200px;
+    width:150px;
+    height:150px;
     opacity:0.9;
 }
 
@@ -297,6 +304,9 @@ a:hover { color: none; text-decoration: none;}
 }
 .research_img2{
     width:130px; height:150px;filter: invert(100%); margin-right:50px; margin-bottom:10px;
+}
+.research_list p{
+    font-size:16px;
 }
 
 .hidden{
