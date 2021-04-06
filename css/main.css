@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Cantata+One&display=swap');
 label, #toggle{display: none;}
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 @font-face {
 
     src : url("../font/D2CodingBold-Ver1.3-20171129.ttf"); 
