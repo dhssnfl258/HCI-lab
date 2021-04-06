@@ -5,11 +5,11 @@ label, #toggle{display: none;}
 
 @font-face {
 
-    src : url("../D2CodingBold-Ver1.3-20171129.ttf"); 
+    src : url("../font/D2CodingBold-Ver1.3-20171129.ttf"); 
     font-family: "D2"; 
 }
 @font-face{
-    src : url("../NanumGothicCoding.ttf"); 
+    src : url("../font/NanumGothicCoding.ttf"); 
     font-family: "nanum";
 }
 body {
@@ -282,6 +282,7 @@ a:hover { color: none; text-decoration: none;}
 }
 .profile h5{
     font-size:20px;
+    font-family:nanum;
 }
 .profile div{
     float:center;
